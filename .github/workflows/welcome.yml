@@ -4,3 +4,8 @@ on:
     types: [opened]
 permissions:
   pull-requests: write
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Welcome!"
